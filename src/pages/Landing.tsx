@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import { FiArrowRight } from 'react-icons/fi';
 
@@ -21,9 +22,9 @@ function Landing() {
           <span>Santa Catarina</span>
         </div>
 
-        <a className="enter-app" href="">
+        <Link className="enter-app" to="/app">
           <FiArrowRight color="rgba(0, 0, 0, 0.6" size={26} />
-        </a>
+        </Link>
       </div>
     </div>
   );
