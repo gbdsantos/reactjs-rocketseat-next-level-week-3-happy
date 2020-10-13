@@ -1,4 +1,5 @@
 import React from 'react';
+import { FiArrowRight } from 'react-icons/fi';
 
 import logoImg from './images/logo.svg';
 
@@ -22,7 +23,7 @@ function App() {
         </div>
 
         <a className="enter-app" href="">
-          >
+          <FiArrowRight color="rgba(0, 0, 0, 0.6" size={26} />
         </a>
       </div>
     </div>
