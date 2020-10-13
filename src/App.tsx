@@ -1,9 +1,30 @@
 import React from 'react';
 
+import logoImg from './images/logo.svg';
+
+import './styles/global.css';
+import './styles/pages/landing.css';
+
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
+    <div id="page-landing">
+      <div className="content-wrapper">
+        <img alt="Happy" src={logoImg} />
+
+        <main>
+          <h1>Leve felicidade para o mundo</h1>
+          <p>Visite orfanatos e mude o dia de muitas crianças.</p>
+        </main>
+
+        <div className="location">
+          <strong>Rio do Sul</strong>
+          <span>Santa Catarina</span>
+        </div>
+
+        <a className="enter-app" href="">
+          >
+        </a>
+      </div>
     </div>
   );
 }
