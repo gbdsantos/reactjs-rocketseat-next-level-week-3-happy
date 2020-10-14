@@ -10,8 +10,15 @@ import api from '../services/api';
 
 import '../styles/pages/orphanages-map.css';
 
+interface Orphanage {
+  id: number;
+  latitude: number;
+  longitude: number;
+  name: string;
+}
+
 function OrphanagesMap() {
-  const [orphanages, setOrphanages] = useState([]);
+  const [orphanages, setOrphanages] = useState<Orphanage[]>([]);
 
   console.log(orphanages);
 
