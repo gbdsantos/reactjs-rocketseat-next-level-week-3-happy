@@ -2,7 +2,7 @@
     <img alt="Happy" src="https://i1.lensdump.com/i/0TULpF.png" />
 </p>
 
-## <img src="https://i.lensdump.com/i/0TUuBD.png" alt="pm2-icon" style="height:20px; width:20px;" /> Happy
+## <img src="https://i.lensdump.com/i/0TUuBD.png" alt="happy-icon" style="height:20px; width:20px;" /> Happy
 
 <p align="left">
     <img alt="Github language count" src="https://img.shields.io/github/languages/count/gbdsantos/reactjs-rocketseat-next-level-week-happy">
