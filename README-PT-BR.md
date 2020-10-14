@@ -45,7 +45,7 @@ yarn start
 
 > Acesse a URL no seu browser http://localhost:3000
 
-## Technology
+## Tecnologias
 
 - [ReactJS](https://reactjs.org/)
 - [Typescript](https://www.typescriptlang.org/)
@@ -53,13 +53,11 @@ yarn start
 - [React Leaflet](https://react-leaflet.js.org/)
 - [MapBox](https://www.mapbox.com/)
 
-## Tools
-
-## :memo: License
+## :memo: Licença
 
 Este projeto está sob a licença MIT. Consulte a [LICENÇA](https://github.com/gbdsantos/reactjs-rocketseat-next-level-week-happy/blob/master/LICENSE) para mais informações.
 
-## :man_astronaut: Author
+## :man_astronaut: Autor
 
 **Guilherme Bezerra** ©️
 
