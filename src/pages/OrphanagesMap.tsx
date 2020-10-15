@@ -54,19 +54,27 @@ function OrphanagesMap() {
           url={`https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/256/{z}/{x}/{y}@2x?access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`}
         />
 
-        <Marker icon={mapIcon} position={[-23.6517833, -46.7962328]}>
-          <Popup
-            className="map-popup"
-            closeButton={false}
-            minWidth={240}
-            maxWidth={240}
-          >
-            Lar das meninas
-            <Link to="/orphanages/1">
-              <FiArrowRight color="#FFF" size={20} />
-            </Link>
-          </Popup>
-        </Marker>
+        {orphanages.map((orphanage) => {
+          return (
+            <Marker
+              icon={mapIcon}
+              key={orphanage.id}
+              position={[orphanage.latitude, orphanage.longitude]}
+            >
+              <Popup
+                className="map-popup"
+                closeButton={false}
+                minWidth={240}
+                maxWidth={240}
+              >
+                {orphanage.name}
+                <Link to={`/orphanages/${orphanage.id}`}>
+                  <FiArrowRight color="#FFF" size={20} />
+                </Link>
+              </Popup>
+            </Marker>
+          );
+        })}
       </Map>
 
       <Link className="create-orphanage" to="/orphanages/create">
